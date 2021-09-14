@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+header{
+    background-color: aqua;
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+}
+.header{
+    background-color: burlywood;
+    height:30px;
+}
+.slider{
+    flex:1;
+    overflow: hidden;
+}
+.slide--width{
+    height:100%;
+    display:flex;
+    transition:all ease 0.3s;
+}
+.slide--item{
+    width:100vw;
+    height:inherit;
+    background-position: center;
+    background-size:cover;
+}

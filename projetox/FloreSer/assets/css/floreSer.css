@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+.fixed{
+    position:fixed;
+}
+.topo{
+    background-color:#fff;
+    width:1920px;
+    height:50px;
+}
+.menu-int{
+    max-width:1850px;
+    height:50px;
+    margin:auto;
+}
+.menu{
+    max-width:50px;
+    max-height:50px;
+    float:right;
+}
+
+
+
+
+
+.section-1{
+    width:1920px;
+}
+.section-int{
+    margin:auto;
+    max-width:1600px;
+    display:flex;
+}
+.left{
+    width:1000px;
+}
+.background-right{
+    flex:1;
+    background-image: url(/media/background-image/floreSer.jpeg);
+    background-position: center;
+}
+h1{
+    padding:50px;
+    font-size: 100px;
+    color:#47e9d3;
+}
+span{
+    padding:20px;
+    font-size:24px;
+    color:#ca7c8e;
+}
+.descricao{
+    background-color:#ddd7d9;
+    width:800px;
+    height:300px;
+}
+ul{
+    padding:50px;
+    font-size: 20px;
+    color:#85749a;
+}
+.msg{
+    text-align: center;
+    color:#85749a;
+    font-size:20px;
+}
+input{
+    padding:5px;
+    width:250px;
+    font-size: 15px;
+    color:#85749a;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    outline:0;
+    border: 1px solid #85749a;
+    border-radius:3px;
+}
+.cadastro{
+    max-width: 800px;
+    height:400px;
+    display: flex;
+}
+.cadastro-int{  
+    max-width: 800px;
+    margin:auto;
+}
+.botao{
+    background-color:#ddd7d9;
+    color:#85749a;
+}
+
+
+
+
+
+
+
+
+
+.section-2{
+    width:1920px;
+}
+.sobre{
+    margin:auto;
+    max-width: 1600px;
+    background-color:#ddd7d9;
+}
+h2{
+    padding:40px;
+    text-align: center;
+    color:#85749a;
+    font-size:35px;
+}
+.sobre-msg{
+    font-size:30px;
+    padding:15px;
+    color:#85749a;
+}
+h3{
+    padding:10px;
+    text-align: center;
+    color:#85749a;
+    font-size:30px;
+}
+
+
+
+
+.section-3{
+    width:1920px;
+    display:flex;
+}
+.grid-area{
+    margin:auto;
+    width: 1600px;
+    height:900px; 
+    background:linear-gradient( #b6778f , #47e9d3);   
+}
+.container{
+    max-width: 1600px;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr) ;
+}
+.item{
+    margin:auto;
+    margin-top: 20px;
+    width:237px;
+    height:327px;
+    background-color:rgba(140,10,15,0.2);
+    border-radius: 10px;
+    padding:10px;
+    color:#fff;
+    font-size: 20px;
+}
+.encontros{
+    font-size: 100px;
+    color: #47e9d3;
+    padding:5px;
+    text-align: center;
+}
+.h2-encontros{
+    color:#000;
+}
+.encontros-msg{
+    color:#000;
+}
+
+
+
+
+
+
+
+.section-4{
+    width:1920px;
+}
+.psi-area{
+    margin:auto;
+    max-width: 1600px;
+    height:1000px;
+}
+.psi-msg{
+    text-align: center;
+    font-size: 45px;
+    color:#85749a;
+}
+.psi{
+    margin: auto;
+    width:1000px;
+    height:300px;
+    background-color:#ddd7d9;
+    margin-top:20px;
+    display: flex;
+}
+.psi-int{
+    flex:1;
+}
+.psi-left{
+    width:400px;
+}
+.psi-img{
+    margin:10px;
+    width:200px;
+    height:200px;
+    border:1px solid #000;
+    border-radius:100px;
+}
+.h1-psi{
+    font-size:50px;
+    padding-bottom:0;
+    color:#85749a;
+}
+.h2-psi{
+    color:#85749a;
+    font-size:20px;
+    padding-top:0;
+}
+.ul-psi{
+    color:#85749a;
+    font-size:20px;
+    padding-top:0;
+}
+.contato{
+    width:50px;
+    height: 50px;
+    padding:5px;
+    margin-left: 50px;
+}
+footer{
+    text-align:center;
+}
+.footer{
+    width:1920px;
+    background-color: #ddd7d9;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+
